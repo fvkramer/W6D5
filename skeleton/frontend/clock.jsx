@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 
 class Clock extends React.Component {
   constructor(props) {
@@ -34,7 +34,7 @@ class Clock extends React.Component {
 
     return (
       <div>
-        <h1 class="clock">{hours}:{minutes}:{seconds}</h1>
+        <h1>{hours}:{minutes}:{seconds}</h1>
       </div>
     );
   }

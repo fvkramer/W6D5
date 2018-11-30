@@ -48,3 +48,7 @@ abbr,acronym { border:0;
   background-size: 1200px 400px;
 
 }
+
+.tabs-ul {
+  font-size: 50px;
+}
